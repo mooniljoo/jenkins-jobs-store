@@ -1,0 +1,12 @@
+Started on 2020. 7. 29 오후 12:45:32
+Started by event from 140.82.115.155 ⇒ http://175.209.238.129:8080/github-webhook/ on 수 7월 29 12:45:32 KST 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision 7eaa50787b87457152d3a6dfdb42a927330df6a7 (refs/remotes/origin/master)
+using credential mooniljoo
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > C:\Program Files\Git\bin\git.exe ls-remote -h -- https://github.com/anifanrnd/tobesoft.git # timeout=10
+Found 1 remote heads on https://github.com/anifanrnd/tobesoft.git
+[poll] Latest remote head revision on refs/heads/master is: 84322891da47ed380e415b6a86aad232efe5995a
+Done. Took 2.8 sec
+Changes found

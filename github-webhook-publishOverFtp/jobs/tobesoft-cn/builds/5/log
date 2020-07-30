@@ -1,0 +1,23 @@
+Started by user [8mha:////4C5U7ayF+0BFTczVr7u7NmDCWTw7Lf2ZdpJmW4LVuByRAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9xLzMtMQ8AGzHjxjBAAAA[0manifan
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\tobesoft-ch
+using credential mooniljoo
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/anifanrnd/tobesoft.git # timeout=10
+Fetching upstream changes from https://github.com/anifanrnd/tobesoft.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/anifanrnd/tobesoft.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 43fb5a16f9be707ce3b95447e8c3f06b552ccb8c (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 43fb5a16f9be707ce3b95447e8c3f06b552ccb8c # timeout=10
+Commit message: "Fix nexacro.aspx"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 20f2041cc4a907511c409f7b39cf86f554d5621f # timeout=10
+FTP: Connecting from host [DESKTOP-QIFN65A]
+FTP: Connecting with configuration [animore] ...
+FTP: Disconnecting configuration [animore] ...
+FTP: Transferred 141 file(s)
+Finished: SUCCESS
